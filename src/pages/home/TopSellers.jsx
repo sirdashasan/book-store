@@ -40,10 +40,10 @@ const TopSellers = () => {
   console.log(filteredBooks);
 
   return (
-    <div className="py-10">
+    <div className="py-8">
       <h2 className="text-2xl font-semibold mb-6">Top Sellers</h2>
       {/* category filtering */}
-      <div className="mb-8 flex items-center">
+      <div className="mb-8 flex items-center text-sm">
         <select
           onChange={(e) => setSelectedCategory(e.target.value)}
           name="category"
