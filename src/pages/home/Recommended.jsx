@@ -21,7 +21,7 @@ const Recommended = () => {
   }, []);
 
   return (
-    <div>
+    <div className="py-16">
       <h2 className="text-2xl font-semibold mb-6">Recommended for you</h2>
 
       <Swiper
